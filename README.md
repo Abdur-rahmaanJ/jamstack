@@ -2,6 +2,12 @@
 
 ![](https://img.shields.io/pypi/v/jamstack)
 
+Install
+
+```bash
+python -m pip install jamstack
+```
+
 Create basic project
 
 ```bash
