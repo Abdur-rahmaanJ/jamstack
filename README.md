@@ -1,5 +1,6 @@
 # jamstack
 
+![](https://img.shields.io/pypi/v/jamstack)
 
 Create basic project
 
