@@ -12,7 +12,7 @@ def cli():
     pass
 
 
-@click.command(help="<Empty, plain repo/>")
+@click.command(help="<Empty, plain repo />")
 @click.argument('project_name')
 @click.option('--existing/--not-existing', default=False)
 def plain(project_name, existing):
@@ -28,7 +28,28 @@ def plain(project_name, existing):
         )
 
 
+@click.command(help="<Repo by templates />")
+@click.argument('template')
+@click.argument('project_name')
+@click.option('--existing/--not-existing', default=False)
+def t(template, project_name, existing):
+    path = '.'
+
+    namespace = template.split('/')[0]
+    project = template.split('/')[1]
+
+    dirs_exist_ok = False
+    if existing is True:
+        dirs_exist_ok = True
+    trycopytree(
+        os.path.join(sites_path, namespace, project),
+        os.path.join(path, project_name),
+        dirs_exist_ok=dirs_exist_ok
+        )
+
+
 cli.add_command(plain)
+cli.add_command(t)
 
 def main():
     cli()

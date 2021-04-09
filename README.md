@@ -6,7 +6,19 @@ Create basic project
 ```bash
 jamstack plain <foldername>
 ```
-Use the --existing flag if you want the project to be created in an existing folder
+
+`jamstack plain myproject`
+
+
+with available templates
+
+```bash
+jamstack t <template> <foldername>
+```
+
+The only available template is 'html5up/massively' (`jamstack t html5up/massively myproject`)
+
+Use the --existing flag if you want the project to be created in an existing folder (`jamstack t html5up/massively myproject --existing`)
 
 Run project:
 

@@ -1,0 +1,41 @@
+{% set active_page='page_3' %}
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		{% include 'sections/head_content.html' %}
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Massively</a>
+					</header>
+
+				{% include 'sections/nav.html' %}
+
+				{% include 'sections/main.html' %}
+
+				{% include 'sections/footer.html' %}
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul>
+							<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							<br />
+							<li><a href="https://pypi.org/project/jamstack/">generated using jamstack</a></li>
+						</ul>
+					</div>
+
+			</div>
+
+		{% include 'sections/bottom_scripts.html' %}
+	</body>
+</html>
