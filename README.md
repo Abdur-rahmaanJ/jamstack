@@ -33,4 +33,9 @@ Run project:
 python static.py
 ```
 
+
+# stites using the package:
+
+- [https://deliciouspy.github.io/](https://deliciouspy.github.io/)
+
 Use the --server flag if you want to start livewatch
