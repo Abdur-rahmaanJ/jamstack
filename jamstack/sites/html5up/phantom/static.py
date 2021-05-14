@@ -50,7 +50,8 @@ def main(args):
         server.watch('*.py')
 
         # output stdout into a file
-        # server.watch('style.less', shell('lessc style.less', output='style.css'))
+        # server.watch('style.less', shell('lessc style.less',\
+        # output='style.css'))
 
         server.serve()
     else:
