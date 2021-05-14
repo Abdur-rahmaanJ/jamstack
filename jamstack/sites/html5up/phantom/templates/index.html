@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		{% include 'sections/head_content.html' %}
+		{% block head %}
+			<title>{{ info['pagename'] }} - Home</title>
+		{% endblock %}
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+		<div id="wrapper">
+			<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<!-- Logo -->
+					<a href="index.html" class="logo">
+						<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">{{ info['pagename'] }}</span>
+					</a>
+					<!-- Nav -->
+					<nav>
+						<ul>
+							<li><a href="#menu">Menu</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+			<!-- Menu -->
+			<nav id="menu">
+				<h2>Menu</h2>
+				<ul>
+					{% for item in info['sidebar'] %}
+						{% set items = info['sidebar'] %}
+						{% set title = items[item]['title'] %}
+						{% set page = items[item]['page'] %}
+						<li><a href="{{ page }}">{{ title }}</a></li>
+					{% endfor %}
+				</ul>
+			</nav>
+			<!-- Main -->
+			<div id="main">
+				<div class="inner">
+					<header>
+						<h1>This is Phantom, a free, fully responsive site<br />
+						template designed by <a href="http://html5up.net">HTML5 UP</a>.</h1>
+						<p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>
+					</header>
+					<section class="tiles">
+						{% for post in posts['posts'] %}
+							{% set posts = posts['posts'] %}
+							{% set title = posts[post]['title'] %}
+							{% set thumbnail = posts[post]['thumbnail'] %}
+							{% set description = posts[post]['description'] %}
+							{% set page = posts[post]['page'] %}
+							<article class="style1">
+								<span class="image">
+									<img src="images/{{ thumbnail }}" alt="" />
+								</span>
+								<a href="{{ page }}">
+									<h2>{{ title }}</h2>
+									<div class="content">
+										<p>{{ description }}</p>
+									</div>
+								</a>
+							</article>
+						{% endfor %}
+					</section>
+				</div>
+			</div>
+			{% include 'sections/footer.html' %}
+		</div>
+		{% include 'sections/bottom_scripts.html' %}
+	</body>
+</html>

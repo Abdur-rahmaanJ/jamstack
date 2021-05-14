@@ -1,0 +1,10 @@
+{% block head %}{% endblock %}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+{% for tag in info['metatags'] %}
+	{% set tagcont = info['metatags'][tag] %}
+	<meta name="{{ tag }}" content="{{ tagcont }}">
+{% endfor %}
+<link rel="icon" type="image/svg+xml" href="images/logo.svg">
+<link rel="stylesheet" href="assets/css/main.css">
+<noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
