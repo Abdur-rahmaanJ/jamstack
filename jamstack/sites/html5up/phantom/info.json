@@ -1,0 +1,147 @@
+{
+    "social": {
+        "twitter": {
+            "url": "https://twitter.com",
+            "title": "Twitter",
+            "icon-type": "brands"
+        },
+        "facebook": {
+            "url": "https://facebook.com",
+            "title": "Facebook",
+            "icon-type": "brands"
+        },
+        "instagram": {
+            "url": "https://instagram.com",
+            "title": "Instagram",
+            "icon-type": "brands"
+        },
+        "dribbble": {
+            "url": "https://dribbble.com",
+            "title": "Dribbble",
+            "icon-type": "brands"
+        },
+        "github": {
+            "url": "https://github.com",
+            "title": "Github",
+            "icon-type": "brands"
+        },
+        "500px": {
+            "url": "https://500px.com",
+            "title": "500px",
+            "icon-type": "brands"
+        },
+        "phone": {
+            "url": "0000",
+            "title": "Phone",
+            "icon-type": "solid"
+        },
+        "envelope": {
+            "url": "mail:email@gmail.com",
+            "title": "E-mail",
+            "icon-type": "solid"
+        }
+    },
+    "sidebar": {
+        "index": {
+            "page": "index.html",
+            "title": "Home"
+        },
+        "generic1": {
+            "page": "generic.html",
+            "title": "Ipsum veroeros"
+        },
+        "generic2": {
+            "page": "generic.html",
+            "title": "Tempus etiam"
+        },
+        "generic3": {
+            "page": "generic.html",
+            "title": "Consequat dolor"
+        },
+        "elements": {
+            "page": "elements.html",
+            "title": "Elements"
+        }
+    },
+    "metatags": {
+        "description": "Webpage description",
+        "keywords": "jamstack, python, html5up",
+        "author": "Jhon Doe",
+        "copyright": "Jhon Doe"
+    },
+    "posts": {
+        "post1": {
+            "title": "MAGNA",
+            "thumbnail": "pic01.jpg",
+            "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+            "page": "generic.html"
+        },
+        "post2": {
+            "title": "LOREM",
+            "thumbnail": "pic02.jpg",
+            "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+            "page": "generic.html"
+        },
+        "post3": {
+            "title": "FEUGIAT",
+            "thumbnail": "pic03.jpg",
+            "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+            "page": "generic.html"
+        },
+        "post4": {
+            "title": "TEMPUS",
+            "thumbnail": "pic04.jpg",
+            "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+            "page": "generic.html"
+        },
+        "post5": {
+            "title": "ALIQUAM",
+            "thumbnail": "pic05.jpg",
+            "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+            "page": "generic.html"
+        },
+        "post6": {
+            "title": "VEROEROS",
+            "thumbnail": "pic06.jpg",
+            "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+            "page": "generic.html"
+        },
+        "post7": {
+            "title": "IPSUM",
+            "thumbnail": "pic07.jpg",
+            "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+            "page": "generic.html"
+        },
+        "post8": {
+            "title": "DOLOR",
+            "thumbnail": "pic08.jpg",
+            "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+            "page": "generic.html"
+        },
+        "post9": {
+            "title": "NULLAM",
+            "thumbnail": "pic09.jpg",
+            "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+            "page": "generic.html"
+        },
+        "post10": {
+            "title": "ULTRICIES",
+            "thumbnail": "pic10.jpg",
+            "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+            "page": "generic.html"
+        },
+        "post11": {
+            "title": "DICTUM",
+            "thumbnail": "pic11.jpg",
+            "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+            "page": "generic.html"
+        },
+        "post12": {
+            "title": "PRETIUM",
+            "thumbnail": "pic12.jpg",
+            "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+            "page": "generic.html"
+        }
+    },
+    "pagename": "Phantom"
+}
