@@ -1,14 +1,14 @@
 <!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							{% for elem in info['nav'] %}
-								<li class="{{ 'active' if active_page == elem[2] }}"><a href="{{ elem[1] }}">{{ elem[0] }}</a></li>
-							{% endfor %}
-						</ul>
-						<ul class="icons">
-							<li><a href="{{ info['social']['twitter'] }}" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="{{ info['social']['facebook'] }}" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="{{ info['social']['instagram'] }}" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="{{ info['social']['github'] }}" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+<nav id="nav">
+	<ul class="links">
+		{% for elem in info['nav'] %}
+			<li class="{{ 'active' if active_page == elem[2] }}"><a href="{{ elem[1] }}">{{ elem[0] }}</a></li>
+		{% endfor %}
+	</ul>
+	<ul class="icons">
+		<li><a href="{{ info['social']['twitter'] }}" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+		<li><a href="{{ info['social']['facebook'] }}" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+		<li><a href="{{ info['social']['instagram'] }}" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+		<li><a href="{{ info['social']['github'] }}" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+	</ul>
+</nav>
