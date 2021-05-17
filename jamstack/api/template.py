@@ -1,19 +1,19 @@
-import uuid
-import datetime
 import builtins
-import string
 import copy
+import datetime
+import string
+import uuid
 
-from jinja2 import Environment
-from jinja2 import FileSystemLoader
+from jinja2 import Environment, FileSystemLoader
 
 
 def base_context():
-    defaults = [_ for _ in dir(builtins) 
-        if _[0] in string.ascii_lowercase and 
-        _ not in ['copyright', 'credits']
-    ]
-    attrs = [getattr(builtins, _) for _ in defaults if _ not in ['copyright', 'credits']]
+    defaults = [_ for _ in dir(builtins)
+                if _[0] in string.ascii_lowercase and
+                _ not in ['copyright', 'credits']
+                ]
+    attrs = [getattr(builtins, _)
+             for _ in defaults if _ not in ['copyright', 'credits']]
 
     builtins_dict = dict(zip(defaults, attrs))
     return copy.deepcopy(builtins_dict)

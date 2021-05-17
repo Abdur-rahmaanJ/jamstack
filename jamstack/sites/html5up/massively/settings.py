@@ -1,7 +1,6 @@
-
 OUTPUT_FOLDER = 'dist/'
 info = {
-    "social":{
+    "social": {
         "facebook": "",
         "twitter": "https://twitter.com/osdotsystem",
         "instagram": "",

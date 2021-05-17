@@ -8,14 +8,15 @@ python setup.py publish to publish
 
 """
 
+import os
+import sys
+
+from jamstack import __version__  # thanks gunicorn
 # Always prefer setuptools over distutils
 from setuptools import setup
 
 # from setuptools import find_packages
 
-import os
-import sys
-from jamstack import __version__  # thanks gunicorn
 
 here = os.path.abspath(os.path.dirname(__file__))
 
