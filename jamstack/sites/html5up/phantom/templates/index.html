@@ -19,7 +19,7 @@
 				<div class="inner">
 					<!-- Logo -->
 					<a href="index.html" class="logo">
-						<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">{{ info['pagename'] }}</span>
+						<span class="symbol"><img src="{{ info['logo'] }}" alt="" /></span><span class="title">{{ info['pagename'] }}</span>
 					</a>
 					<!-- Nav -->
 					<nav>
@@ -58,7 +58,7 @@
 							{% set page = posts[post]['page'] %}
 							<article class="style1">
 								<span class="image">
-									<img src="images/{{ thumbnail }}" alt="" />
+									<img src="{{ thumbnail }}" alt="" />
 								</span>
 								<a href="{{ page }}">
 									<h2>{{ title }}</h2>
