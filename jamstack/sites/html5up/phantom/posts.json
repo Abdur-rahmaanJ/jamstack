@@ -2,73 +2,73 @@
     "posts": {
         "post1": {
             "title": "MAGNA",
-            "thumbnail": "pic01.jpg",
+            "thumbnail": "https://picsum.photos/350/350?random=2",
             "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
             "page": "post_template.html"
         },
         "post2": {
             "title": "LOREM",
-            "thumbnail": "pic02.jpg",
+            "thumbnail": "https://picsum.photos/350/350?random=2",
             "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
             "page": "post_template.html"
         },
         "post3": {
             "title": "FEUGIAT",
-            "thumbnail": "pic03.jpg",
+            "thumbnail": "https://picsum.photos/350/350?random=2",
             "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
             "page": "post_template.html"
         },
         "post4": {
             "title": "TEMPUS",
-            "thumbnail": "pic04.jpg",
+            "thumbnail": "https://picsum.photos/350/350?random=2",
             "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
             "page": "post_template.html"
         },
         "post5": {
             "title": "ALIQUAM",
-            "thumbnail": "pic05.jpg",
+            "thumbnail": "https://picsum.photos/350/350?random=2",
             "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
             "page": "post_template.html"
         },
         "post6": {
             "title": "VEROEROS",
-            "thumbnail": "pic06.jpg",
+            "thumbnail": "https://picsum.photos/350/350?random=2",
             "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
             "page": "post_template.html"
         },
         "post7": {
             "title": "IPSUM",
-            "thumbnail": "pic07.jpg",
+            "thumbnail": "https://picsum.photos/350/350?random=2",
             "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
             "page": "post_template.html"
         },
         "post8": {
             "title": "DOLOR",
-            "thumbnail": "pic08.jpg",
+            "thumbnail": "https://picsum.photos/350/350?random=2",
             "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
             "page": "post_template.html"
         },
         "post9": {
             "title": "NULLAM",
-            "thumbnail": "pic09.jpg",
+            "thumbnail": "https://picsum.photos/350/350?random=2",
             "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
             "page": "post_template.html"
         },
         "post10": {
             "title": "ULTRICIES",
-            "thumbnail": "pic10.jpg",
+            "thumbnail": "https://picsum.photos/350/350?random=2",
             "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
             "page": "post_template.html"
         },
         "post11": {
             "title": "DICTUM",
-            "thumbnail": "pic11.jpg",
+            "thumbnail": "https://picsum.photos/350/350?random=2",
             "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
             "page": "post_template.html"
         },
         "post12": {
             "title": "PRETIUM",
-            "thumbnail": "pic12.jpg",
+            "thumbnail": "https://picsum.photos/350/350?random=2",
             "description": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
             "page": "post_template.html"
         }
