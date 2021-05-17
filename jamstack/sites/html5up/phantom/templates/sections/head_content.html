@@ -5,6 +5,6 @@
 	{% set tagcont = info['metatags'][tag] %}
 	<meta name="{{ tag }}" content="{{ tagcont }}">
 {% endfor %}
-<link rel="icon" type="image/svg+xml" href="images/logo.svg">
+<link rel="icon" type="image/svg+xml" href="{{ info['logo'] }}">
 <link rel="stylesheet" href="assets/css/main.css">
 <noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
