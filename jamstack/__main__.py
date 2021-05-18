@@ -38,8 +38,8 @@ def t(template, project_name, existing):
     templates = {'massively': 'html5up/massively',
                  'phantom': 'html5up/phantom'}
 
-    #namespace = template.split('/')[0]
-    #project = template.split('/')[1]
+    # namespace = template.split('/')[0]
+    # project = template.split('/')[1]
 
     dirs_exist_ok = False
     if existing is True:
