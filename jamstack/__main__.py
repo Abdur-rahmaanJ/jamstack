@@ -35,15 +35,17 @@ def plain(project_name, existing):
 @click.option('--existing/--not-existing', default=False)
 def t(template, project_name, existing):
     path = '.'
+    templates = {'massively': 'html5up/massively',
+                 'phantom': 'html5up/phantom'}
 
-    namespace = template.split('/')[0]
-    project = template.split('/')[1]
+    #namespace = template.split('/')[0]
+    #project = template.split('/')[1]
 
     dirs_exist_ok = False
     if existing is True:
         dirs_exist_ok = True
     trycopytree(
-        os.path.join(sites_path, namespace, project),
+        os.path.join(sites_path, templates[template]),
         os.path.join(path, project_name),
         dirs_exist_ok=dirs_exist_ok
     )
