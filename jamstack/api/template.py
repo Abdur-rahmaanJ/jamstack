@@ -38,4 +38,5 @@ def generate(file_in_templates, out_path, template_dir='templates', assets_path_
 
     output = template.render(kwargs, year=datetime.datetime.now().year,
                              build_id=build_id, assets_path_append=assets_path_append)
-    print(output, file=open(out_path, 'w+', encoding="utf8"))
+    with open(out_path, 'w+', encoding="utf8") as f:
+        f.write(output)
