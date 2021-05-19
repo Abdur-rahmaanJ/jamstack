@@ -51,5 +51,6 @@ Alternatively you can use the `--server` flag if you want to start livewatch.
 
 ## Sites using jamstack
 
-- [https://deliciouspy.github.io/](https://deliciouspy.github.io/)
-- [https://flaskcwg.github.io/](https://flaskcwg.github.io/)
+- [DeliciousPy Telegram Channel](https://deliciouspy.github.io/)
+- [The Flask Community Work Group](https://flaskcwg.github.io/)
+- [A Personal Site](https://compileralchemy.github.io/)
