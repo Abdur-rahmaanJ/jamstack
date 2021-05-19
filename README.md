@@ -1,14 +1,14 @@
-# jamstack
+<h1 align="center">Jamstack</h1>
 
 ![](https://img.shields.io/pypi/v/jamstack)
 
-Install
+## Installation
 
 ```bash
 python -m pip install jamstack
 ```
 
-Create basic project
+## Create basic project
 
 ```bash
 jamstack plain <foldername>
@@ -16,27 +16,40 @@ jamstack plain <foldername>
 
 `jamstack plain myproject`
 
+## Templates
 
-with available templates
+Jamstack has templates available courtesy of [html5up](https://html5up.net).
+
+| Template                                   | Command   |
+| ------------------------------------------ | --------- |
+| [Massively](https://html5up.net/massively) | massively |
+| [Phantom](https://html5up.net/phantom)     | phantom   |
+
+The syntax is as follows:
 
 ```bash
 jamstack t <template> <foldername>
 ```
 
-The only available template is 'html5up/massively' (`jamstack t html5up/massively myproject`)
+Use the `--existing` flag if you want the project to be created in an existing folder
 
-Use the --existing flag if you want the project to be created in an existing folder (`jamstack t html5up/massively myproject --existing`)
+```bash
+jamstack t massively myproject --existing
+```
 
-Run project:
+## Build
+
+To build the site run the file `static.py`.
 
 ```bash
 python static.py
 ```
 
+Your site will be generated in the **dist/** folder.
 
-# stites using the package:
+Alternatively you can use the `--server` flag if you want to start livewatch.
+
+## Sites using jamstack
 
 - [https://deliciouspy.github.io/](https://deliciouspy.github.io/)
 - [https://flaskcwg.github.io/](https://flaskcwg.github.io/)
-
-Use the --server flag if you want to start livewatch
