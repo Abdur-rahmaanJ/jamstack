@@ -1,4 +1,6 @@
-<h1 align="center">Jamstack</h1>
+<div align="center">
+  <img alt="Jamstack logo" src="banner.png" height="217" />
+</div>
 
 ![](https://img.shields.io/pypi/v/jamstack)
 
