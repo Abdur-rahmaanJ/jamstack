@@ -1,6 +1,7 @@
 <div align="center">
-  <img alt="Jamstack logo" src="banner.png" height="217" />
+  <img alt="Jamstack logo" src="https://i.imgur.com/sXUAdYJ.png" height="217" />
 </div>
+
 
 ![](https://img.shields.io/pypi/v/jamstack)
 
