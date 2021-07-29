@@ -5,6 +5,8 @@
 
 ![](https://img.shields.io/pypi/v/jamstack)
 
+Also known as Jamstackpy
+
 ## Installation
 
 ```bash
