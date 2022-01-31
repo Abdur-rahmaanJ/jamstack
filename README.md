@@ -19,7 +19,7 @@ python -m pip install jamstack
 jamstack plain <foldername>
 ```
 
-`jamstack plain myproject`
+`jamstack plain myproject` or for git cloned repos, after cd `jamstack plain . --existing`
 
 ## Templates
 
